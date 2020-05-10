@@ -1,0 +1,56 @@
+/*----------------------------------------------------------------------------------*\
+|                                                                                    | 
+|    ANSA_VERSION: 17.0.0                                                            | 
+|                                                                                    | 
+|    file created by  A N S A  Sat May 09 20:46:09 2020                              | 
+|                                                                                    | 
+|    Output from: D:/tmp/Bairikov-no-holes-fixed-1.ccm                               | 
+|                                                                                    | 
+\*----------------------------------------------------------------------------------*/
+
+
+
+FoamFile
+{
+	version 2.0;
+	format binary;
+	class polyBoundaryMesh;
+	location "";
+	object boundary;
+}
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+
+
+4
+(
+
+	body
+	{
+		type wall;
+		startFace 281116;
+		nFaces 60979;
+	}
+
+	fix1
+	{
+		type wall;
+		startFace 342095;
+		nFaces 101;
+	}
+
+	fix2
+	{
+		type wall;
+		startFace 342196;
+		nFaces 100;
+	}
+
+	force
+	{
+		type wall;
+		startFace 342296;
+		nFaces 620;
+	}
+
+)

@@ -1,0 +1,46 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  4.0                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      mechanicalProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+// Titanium
+// Density
+
+rho
+{
+    type        uniform;
+    value       7854;
+}
+
+// Poisson's Ratio
+
+nu
+{
+    type        uniform;
+    value       0.3;
+}
+
+// Young's Modulus [Pa]
+
+E
+{
+    type        uniform;
+    value       2e+11;
+}
+
+planeStress     no;//yes;
+
+
+// ************************************************************************* //
